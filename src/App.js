@@ -6,7 +6,14 @@ function App() {
     <div className="App">
       <h1>Rolling the dice</h1>
       <Scoreboard />
-      <DiceResult />
+      <div>
+        <p>Player 1</p>
+        <DiceResult />
+      </div>
+      <div>
+        <p>Player 2</p>
+        <DiceResult />
+      </div>
     </div>
   );
 }
