@@ -1,17 +1,24 @@
 import { useState } from "react";
 
-export const DiceResult = () => {
+export const RollDice = () => {
   const [number, setNumber] = useState(0);
 
-  const getNumber = () => {
-    const newNumber = Math.round(Math.random() * 6);
-    setNumber(newNumber);
-  };
+  // const getNumber = () => {
+  //   if (activate) {
+  //     const newNumber = Math.round(Math.random() * 6);
+  //     setNumber(newNumber);
+  //     setActivate(false);
+  //   }
+  // };
 
   return (
     <div>
-      <div>{number}</div>
-      <button onClick={getNumber}>Roll</button>
+      <ul>
+        <li>
+          {name}: {number}
+          <button onClick={() => getNumber(id)}>Roll</button>
+        </li>
+      </ul>
     </div>
   );
 };
