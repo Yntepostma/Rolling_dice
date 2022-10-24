@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const RollDice = () => {
+export const DiceResult = () => {
   const [number, setNumber] = useState(0);
 
   const getNumber = () => {
