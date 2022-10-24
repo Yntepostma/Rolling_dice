@@ -1,6 +1,9 @@
 export const rollDice = () => {
-  const number = Math.round(Math.random() * 6);
-  return number;
+  return (
+    <div>
+      <button>Roll</button>
+    </div>
+  );
 };
 
 console.log(rollDice());
