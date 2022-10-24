@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const scoreBoard = () => {
+export const Scoreboard = () => {
   return (
     <div>
       <h1>This is scoreboard</h1>
